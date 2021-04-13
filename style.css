@@ -1,0 +1,19 @@
+body {
+    background: #c7d0f4;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    text-align: center
+}
+
+div.page-wrapper {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    background: white;
+}
