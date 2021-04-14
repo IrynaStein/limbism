@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Limbism introductory website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>LIMBISM</h1>
-  </body>
-</html> 
+const colorChange = document.getElementById('logo');
+colorChange.addEventListener('click', function() {
+  alert('I was clicked!');
+});

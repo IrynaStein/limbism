@@ -1,19 +1,75 @@
 body {
-    background: #c7d0f4;
+    height: 100%;
+    min-height: 100%;
+    background-image: url(images/OrangeMushroom.png)
+}
+.page {
+    width: 1280px;
+    margin: 0 auto;
+  }
+.center {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
 }
 
-h1 {
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.artWorks {
+    width: 20%;
+    height: 20%;
+}
+.menu {
     text-align: center;
-    color: white;
+    vertical-align: middle;
+    background-color: #B2D6FF;    /* Medium blue */
+  }
+  
+  .info {
+    float: left;
+    margin-right: 1%;
+    width: 30%;                 /* Add this */
+    background-color: rgba(240, 154, 157, 0.7);
+    padding: 10px;   /* Red */
+  }
+  
+  .news {
+    margin-right: 1%;
+    float: left;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    background-color: #F5CF8E;
+    padding: 10px;     /* Yellow */
+  }
+  .shop {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color:#e9a8f4;
+    padding: 10px;     /* Yellow */
+  }
+  
+  .footer {
+    clear:both;
+    height: 100px;
+    background-color: #D6E9FE;    /* Light blue */
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+h2 {
+    text-align: center;
+    background: white;
 }
 
 h4 {
-    text-align: center
+    color: black
 }
 
-div.page-wrapper {
-    z-index: 2;
-    position: absolute;
-    display: block;
-    background: white;
-}
